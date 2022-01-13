@@ -1,0 +1,23 @@
+{
+  "name": "investments",
+  "version": "1.0.0",
+  "description": "Express app to access and modify a Postgres DB for mock Investments data using the sequelize ORM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgres",
+    "sequelize"
+  ],
+  "author": "EvanT",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.13.0"
+  }
+}
